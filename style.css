@@ -97,6 +97,6 @@ button:hover{
     margin-top: 1rem;
 }
 
-input::placeholder{
+/* input::placeholder{
     color: red;
-}
+} */
