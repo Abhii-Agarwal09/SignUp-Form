@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="/style.css">      
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">     
+</head>
+<body>
+    <form action="post">
+        <h1>Join Us Now</h1>
+        <div class="main-form">
+            <div class="personal-details">
+                <h2>Personal Details</h2>
+                    <div class="personal-container">
+                        <div class="first-half">
+                            <p>Name:</p>
+                            <input type="text" placeholder="Enter Your Name*">
+                            <p>Gender:</p>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <p>Phone No.:</p>
+                            <input type="number" name="phone-no" id="phone-no" placeholder="Enter Phone No.*">
+                            <p>Address:</p>
+                            <input type="text" placeholder="Enter Address*">
+                        </div>
+                        <div class="second-half">
+                            <p>City:</p>
+                            <input type="text" placeholder="Enter City Name*">
+                            <p>State:</p>
+                            <input type="text" placeholder="Enter State Name*">
+                            <p>Pincode:</p>
+                            <input type="number" name="pincode" id="pincode" placeholder="Enter Pincode*">
+                            <p>Date Of Birth:</p>
+                            <input type="date" name="dob" id="dob" placeholder="Enter D.O.B*">   
+                        </div>
+                    </div>
+            </div>
+            <div class="payment-details">
+                <h2>Payment Details</h2>
+                <p>Full Name On Card:</p>
+                <input type="text" placeholder="Name On Card*">
+                <p>Exp Date:</p>
+                <input type="month" name="" id="">
+                <p>CVV</p>
+                <input type="password" name="cvv" id="cvv" maxlength="3" placeholder="Enter CVV*">
+                <p>Card Type</p>
+                <select name="card-type" id="card-type">
+                    <option value="#">Select a Card Type</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="Visa">Visa</option>
+                </select>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
